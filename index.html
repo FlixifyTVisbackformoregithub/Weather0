@@ -198,22 +198,22 @@
 
             switch (condition) {
                 case 'clear':
-                    backgroundImage = 'https://source.unsplash.com/featured/?clear,sky'; // Clear skies
+                    backgroundImage = '#000'; // Clear skies
                     break;
                 case 'clouds':
-                    backgroundImage = 'https://source.unsplash.com/featured/?clouds'; // Cloudy
+                    backgroundImage = '#000'; // Cloudy
                     break;
                 case 'rain':
-                    backgroundImage = 'https://source.unsplash.com/featured/?rain'; // Rainy
+                    backgroundImage = '#000'; // Rainy
                     break;
                 case 'snow':
-                    backgroundImage = 'https://source.unsplash.com/featured/?snow'; // Snow
+                    backgroundImage = '#000'; // Snow
                     break;
                 case 'thunderstorm':
-                    backgroundImage = 'https://source.unsplash.com/featured/?thunderstorm'; // Thunderstorm
+                    backgroundImage = '#000'; // Thunderstorm
                     break;
                 default:
-                    backgroundImage = ''; // Fallback
+                    backgroundImage = '#000'; // Fallback
             }
 
             document.body.style.backgroundImage = `url('${backgroundImage}')`;
